@@ -48,7 +48,7 @@ main {
    to get an idea of some of the style properties you will need to use; then
    complete the style code according to the instructions in Canvas. */
 
-/* NOTE: While you will be using some of the same CSS properties, the VALUES 
+/* NOTE: While you will be using some of the same CSS properties, the VALUES
    may need to be different in order to style the page correctly. */
 
 
@@ -65,15 +65,119 @@ h1 {
     text-align:center;
 }
 
+h2 {
+    text-transform: uppercase;
+    font-size:3rem;
+    margin: 0;
+    letter-spacing: .25rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size:2rem;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size:1.5rem;
+    margin: 0;
+    letter-spacing: .25rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size:1rem;
+    margin: .25rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+
 
 /* Section & Paragraph */
+section {
+    text-transform: uppercase;
+    font-size:6rem;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
 
+p {
+    text-transform: uppercase;
+    font-size:6rem;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
 
 
 /* Image & Figure */
 
+img {
+    text-transform: uppercase;
+    font-size:6rem;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+
+figure {
+    text-transform: uppercase;
+    font-size:6rem;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+
+figcaption {
+    text-transform: uppercase;
+    font-size:6rem;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
 
 
 /* Footer */
 
-
+footer {
+    text-transform: uppercase;
+    font-size:6rem;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
