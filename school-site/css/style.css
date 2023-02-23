@@ -80,62 +80,143 @@ header, footer {
 /* Imported Typfaces */
 
 @@font-face {
-
+    font-family: Josefinslab;
+    src: url(.../fonts/josefinslab-regular.ttf); format('truetype');
+    font-weight:normal;
+    font-style:normal;
 }
-@@font-face {
 
+@@font-face {
+  font-family: Montserrat;
+  src: url(.../fonts/montserrat-regular.ttf); format('truetype');
+  font-weight:normal;
+  font-style:normal;
 }
 
 
 /* Typography Styles */
-html {}
+html {
+  font-family: Montserrat, Arial, sans-serif;
+}
 
-h1 {}
+h1 {
+  font-family: Josefinslab, Times, serif;
+  font-size: 3.75rem;
+  margin: 1.125rem;
+  align: center;
+}
 
-h2 {}
+h2 {
+  font-family: Josefinslab, Times, serif;
+  font-size: 1.5rem;
+}
 
-h2 + p {}
+h2 + p {
+  font-family: Josefinslab, Times, serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.031rem;
+  word-spacing: 0.125rem;
+  text-indent: 1.5rem;
+}
 
-p {}
+p {
+  font-family: Josefinslab, Times, serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.031rem;
+  word-spacing: 0.125rem;
+}
 
-li {}
+li {
+  font-family: Josefinslab, Times, serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.031rem;
+  word-spacing: 0.125rem;
+}
 
-figcaption {}
+figcaption {
+  font-family: Josefinslab, Times, serif;
+  font-size: 0.75rem;
+  margin-bottom: 2rem;
+}
 
 
 /* Link Styling */
 
 
-a {}
+a {
+  outline: none;
+}
 
 a:link,
-a:visited {}
+a:visited {
+  color: #33658A;
+}
 
 a:focus,
-a:hover {}
+a:hover {
+  text-decoration: none;
+}
 
 
 /* List Styling */
 
-ul class="long-list" {}
+ul class="long-list" {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  list-style-type: square;
 
-ol {}
+}
 
-.long-list a:hover {}
+ol {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  list-style-type: lower-alpha;
+}
+
+.long-list a:hover {
+  text-transform: uppercase;
+}
 
 
 /* Navigation Menu */
 
-nav {}
+nav {
+  padding-left:0rem;
+  margin-top: 0.25rem;
 
-nav a {}
+}
+
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%; line-height: 3;
+  text-align: center;
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  border: solid;
+  border-width: 0.063rem;
+  border-color: #33658A;
+}
 
 nav a:focus,
-nav a:hover {}
+nav a:hover {
+  color: #FFF;
+  background-color: #33658A;
 
-nav a:active {}
+}
+
+nav a:active {
+  color: #FFF;
+  background-color: #000;
+}
 
 
 /* Footer Styles */
 
-footer {}
+footer {
+  text-align: center;
+}
