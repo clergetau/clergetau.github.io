@@ -152,7 +152,12 @@ p {
 img {
     text-transform: uppercase;
     font-size:6rem;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 50rem;
     letter-spacing: .5rem;
     color:darkred;
     text-shadow:.09375rem .09375rem .09375rem #000;
@@ -163,7 +168,7 @@ img {
 figure {
     text-transform: uppercase;
     font-size:6rem;
-    margin: 0;
+    margin-bottom: 2rem;
     letter-spacing: .5rem;
     color:darkred;
     text-shadow:.09375rem .09375rem .09375rem #000;
@@ -174,12 +179,13 @@ figure {
 figcaption {
     text-transform: uppercase;
     font-size:6rem;
+    padding-top: 0.5rem;
     margin: 0;
     letter-spacing: .5rem;
     color:darkred;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
-    text-align:center;
+    text-align:right;
 }
 
 
@@ -189,6 +195,10 @@ footer {
     text-transform: uppercase;
     font-size:6rem;
     margin: 0;
+    padding: 1rem;
+    border-top-width: 2rem;
+    border-top-style: solid;
+    border-top-color: #333;
     letter-spacing: .5rem;
     color:darkred;
     text-shadow:.09375rem .09375rem .09375rem #000;
