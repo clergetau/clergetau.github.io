@@ -184,13 +184,11 @@ figure {
 }
 
 figcaption {
-    text-transform: uppercase;
-    font-size:6rem;
+    font-size:0.5rem;
     padding-top: 0.5rem;
     margin: 0;
     letter-spacing: .5rem;
-    color:darkred;
-    text-shadow:.09375rem .09375rem .09375rem #000;
+    color:black;
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:right;
 }
