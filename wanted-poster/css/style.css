@@ -137,7 +137,7 @@ section {
 }
 
 p {
-    font-size:4rem;
+    font-size:2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: auto;
@@ -180,7 +180,7 @@ figure {
     color:darkred;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
-    text-align:center;
+    text-align:right;
 }
 
 figcaption {
