@@ -110,7 +110,7 @@ h4 > span {
   padding-bottom: 0;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-  
+
 }
 
 h5 {
@@ -128,7 +128,7 @@ h5 {
 section {
     text-transform: uppercase;
     font-size:6rem;
-    margin: 0;
+    margin-top: 0.5rem;
     letter-spacing: .5rem;
     color:darkred;
     text-shadow:.09375rem .09375rem .09375rem #000;
